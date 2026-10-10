@@ -335,7 +335,7 @@
   width: 100%;
   aspect-ratio: 4/5;
   object-fit: cover;
-  object-position: 68% 25%;
+  object-position: center 20%;
   border-radius: 180px 180px 4px 4px;
   padding: 10px;
   border: 1px solid var(--border);
@@ -909,7 +909,7 @@
     max-width: 280px;
     aspect-ratio: 4/5;
     margin: 0 auto;
-    object-position: 68% 25%;
+    object-position: center 20%;
     border-radius: 140px 140px 4px 4px;
     padding: 8px;
   }

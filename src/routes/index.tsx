@@ -28,6 +28,7 @@ import {
 } from "@/components/ui/dialog";
 import community from "@/assets/community.jpg";
 import editorialPortrait from "@/assets/clair_editorial.jpg";
+import aboutPortrait from "@/assets/clair_about.jpg";
 
 const RESUME_URL = "/Clair_Mutyambizi_Resume.pdf";
 const WHATSAPP_URL =
@@ -293,11 +294,11 @@ function Index() {
           <div className="section about-grid">
             <img
               className="about-photo"
-              src={editorialPortrait}
+              src={aboutPortrait}
               loading="lazy"
-              width={1536}
+              width={682}
               height={1024}
-              alt="Portrait of Clair Mutyambizi"
+              alt="Portrait of Clair Mutyambizi in a light blue blazer"
             />
             <div className="about-copy">
               <p className="eyebrow">The person behind the practice</p>
