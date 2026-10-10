@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { ArrowUpRight, ArrowRight, Heart, Users, Compass, BookOpen, ShieldCheck, Sparkles, HandHeart, MapPin, Menu, X, Quote, Check, Leaf } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog';
-import portrait from '@/assets/clair_portrait.jpeg.asset.json';
 import community from '@/assets/community.jpg';
 import editorialPortrait from '@/assets/clair_editorial.jpg';
 
@@ -64,7 +63,7 @@ function Index() {
         <div className="work-grid">{work.map((item, index) => <article className="work-item" key={item.title}><div className="work-top"><item.icon /><span>0{index + 1}</span></div><h3>{item.title}</h3><p>{item.description}</p><Button variant="editorial" onClick={() => setSelected(index)}>Explore this area <ArrowUpRight /></Button></article>)}</div>
       </section>
       <section className="about-band" id="about"><div className="section about-grid">
-        <img className="about-photo" src={portrait.url} loading="lazy" width={769} height={894} alt="Portrait of Clair" />
+        <img className="about-photo" src={editorialPortrait} loading="lazy" width={1536} height={1024} alt="Portrait of Clair Mutyambizi" />
         <div className="about-copy"><p className="eyebrow">The person behind the practice</p><h2>Rooted in empathy.<br /><em>Driven by purpose.</em></h2><p>I am a qualified Social Work professional with over five years of experience across child protection, safeguarding, mental health and psychosocial support, programme facilitation, and organisational support.</p><p>I care deeply about supporting people and communities, and the professionals who serve them. My training and experience have shaped a holistic, person-centered approach to everything I do.</p><a className="text-link" href="#experience">Get to know my journey <ArrowRight size={16} /></a></div>
         <div className="values"><div className="values-title">WHAT GUIDES ME</div>{values.map(value => <div className="value" key={value.title}><value.icon /><div><h4>{value.title}</h4><p>{value.text}</p></div></div>)}</div>
       </div></section>
