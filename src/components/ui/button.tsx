@@ -9,8 +9,14 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        portfolio: "rounded-full bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-6 text-xs font-medium shadow-none",
-        editorial: "rounded-none px-0 h-auto py-0 mt-6 text-primary text-xs bg-transparent hover:underline underline-offset-4 justify-start shadow-none",
+        portfolio:
+          "rounded-full bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-6 text-xs font-medium shadow-none",
+        "portfolio-outline":
+          "rounded-full border border-border bg-background/80 hover:bg-secondary hover:border-primary text-foreground h-11 px-6 text-xs font-medium shadow-none transition-colors",
+        whatsapp:
+          "rounded-full bg-[#25D366] text-white hover:bg-[#20bd5a] h-11 px-6 text-xs font-medium shadow-none transition-colors",
+        editorial:
+          "rounded-none px-0 h-auto py-0 mt-6 text-primary text-xs bg-transparent hover:underline underline-offset-4 justify-start shadow-none",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
