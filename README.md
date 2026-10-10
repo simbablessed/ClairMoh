@@ -1,24 +1,31 @@
-# Kindred Connect
+# Clair Mutyambizi — Professional Portfolio
 
-Create a really nice and unique social worker, I have attached a picture of the reference information and colors but not the design please -- something really nice
+Official portfolio and research website for Clair Mutyambizi, a qualified Social Work professional specializing in child protection, safeguarding, psychosocial support, monitoring and evaluation, and women's wellbeing initiatives.
 
-This project was built with [Lovable](https://lovable.dev).
+## Features
 
-## Build with Lovable
+- **Single-page editorial design**: Accessible introduction, interactive service areas, and Her Gentle Reset Initiative modal.
+- **Curriculum Vitae**: Integrated resume download (`/Clair_Mutyambizi_Resume.pdf`).
+- **Direct contact channels**: Email and direct WhatsApp connectivity (`+263 779 461 370`).
+- **Responsive design**: Semantic typography, mobile navigation drawer, and cross-device optimization.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/720327c9-14ca-4226-987d-c410afd2a360).
+## Technology Stack
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+- [TanStack Start](https://tanstack.com/start) & [TanStack Router](https://tanstack.com/router)
+- [React 19](https://react.dev/) & [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/) & [Nitro](https://nitro.unjs.io/)
 
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Local Development
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+npm install
 npm run dev
+```
+
+To run tests and production build:
+
+```sh
+npm test
+npm run build
 ```

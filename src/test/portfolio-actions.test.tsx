@@ -32,4 +32,15 @@ describe("Resume and WhatsApp features", () => {
       true,
     );
   });
+
+  it("has replaced Lovable favicon with custom CM brand favicons", () => {
+    const icoPath = path.resolve(process.cwd(), "public", "favicon.ico");
+    const svgPath = path.resolve(process.cwd(), "public", "favicon.svg");
+    expect(fs.existsSync(icoPath)).toBe(true);
+    expect(fs.existsSync(svgPath)).toBe(true);
+
+    const svgContent = fs.readFileSync(svgPath, "utf-8");
+    expect(svgContent).toContain("CM");
+    expect(svgContent).not.toContain("lovable");
+  });
 });
