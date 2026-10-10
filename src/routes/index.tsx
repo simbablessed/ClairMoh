@@ -243,26 +243,6 @@ function Index() {
                   Discover my work <ArrowUpRight />
                 </a>
               </Button>
-              <Button variant="portfolio-outline" size="lg" asChild>
-                <a
-                  href={RESUME_URL}
-                  download="Clair_Mutyambizi_Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Download size={14} /> Download Resume
-                </a>
-              </Button>
-              <Button variant="whatsapp" size="lg" asChild>
-                <a
-                  href={WHATSAPP_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Message Clair on WhatsApp"
-                >
-                  <WhatsAppIcon className="w-4 h-4 fill-white" /> WhatsApp
-                </a>
-              </Button>
               <a className="text-link mt-0!" href="#about">
                 A little about me <ArrowRight size={15} />
               </a>

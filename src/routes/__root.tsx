@@ -79,15 +79,25 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Clair Mutyambizi | Social Work & Impact" },
-      { name: "description", content: "Clair Mutyambizi’s professional portfolio in social work, research, and community wellbeing." },
+      {
+        name: "description",
+        content:
+          "Clair Mutyambizi’s professional portfolio in social work, research, and community wellbeing.",
+      },
       { name: "author", content: "Clair Mutyambizi" },
       { property: "og:title", content: "Clair Mutyambizi | Social Work & Impact" },
-      { property: "og:description", content: "People-centered practice, research, and positive change." },
+      {
+        property: "og:description",
+        content: "People-centered practice, research, and positive change.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600;700&display=swap" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600;700&display=swap",
+      },
       {
         rel: "stylesheet",
         href: appCss,
